@@ -10,9 +10,12 @@ function App() {
     <Router>
     <Routes>
       <Route path="/" element={<Proposal />} />
-      <Route path="/confirmation" element={<ConfirmationPage />} />
+      <Route path="/confirmation" element={<ConfirmationPage />}
+      />
     </Routes>
+    <footer className='text-center text-xl text-blue-800'>Developed By @Raghubir</footer>
   </Router>
+
   );
 }
 
