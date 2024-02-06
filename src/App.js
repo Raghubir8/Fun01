@@ -8,12 +8,15 @@ import ConfirmationPage from './components/ConfirmationPage';
 function App() {
   return (
     <Router>
-          <footer className='text-right font-bold text-sm text-blue-700 px-4 mt-4'>Developed By @Raghubir</footer>
+          <h1 
+          className='fixed'
+          style={{ fontSize: '0.50rem' }}>Disclaimer:-pls don't offend</h1>
     <Routes>
       <Route path="/" element={<Proposal />} />
       <Route path="/confirmation" element={<ConfirmationPage />}
       />
     </Routes>
+    <footer className='text-black text-sm text-center py-4 fixed bottom-0 w-full'>Developed By @RK</footer>
   </Router>
 
   );

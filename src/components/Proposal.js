@@ -19,7 +19,7 @@ const Proposal = () => {
 
       // Simulate typing effect
       let index = 0;
-      const finalContent = "Hye cutie, would you like to go on a date with me ?";
+      const finalContent = "Do you have a map ? Because I keep getting lost in your eyes 🫠 , and I think we should navigate our way to a date?";
       const typingInterval = setInterval(() => {
         setTypedContent(finalContent.substring(0, index));
         index++;
@@ -91,7 +91,7 @@ const Proposal = () => {
       />
 
       {!showThankYou && (
-        <div className={`text-center text-2xl text-blue-500 ${isTyping ? 'typing-animation' : ''}`}>
+        <div className={`text-center text-xl text-blue-500 ${isTyping ? 'typing-animation' : ''}`}>
           {typedContent}
         </div>
       )}
