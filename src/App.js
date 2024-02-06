@@ -8,12 +8,12 @@ import ConfirmationPage from './components/ConfirmationPage';
 function App() {
   return (
     <Router>
+          <footer className='text-right font-bold text-sm text-blue-700 px-4 mt-4'>Developed By @Raghubir</footer>
     <Routes>
       <Route path="/" element={<Proposal />} />
       <Route path="/confirmation" element={<ConfirmationPage />}
       />
     </Routes>
-    <footer className='text-center text-xl text-blue-700'>Developed By @Raghubir</footer>
   </Router>
 
   );
