@@ -13,7 +13,7 @@ function App() {
       <Route path="/confirmation" element={<ConfirmationPage />}
       />
     </Routes>
-    <footer className='text-center text-xl text-blue-800'>Developed By @Raghubir</footer>
+    <footer className='text-center text-xl text-blue-700'>Developed By @Raghubir</footer>
   </Router>
 
   );
