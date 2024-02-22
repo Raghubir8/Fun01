@@ -19,7 +19,7 @@ const Proposal = () => {
 
       // Simulate typing effect
       let index = 0;
-      const finalContent = "Do you have a map ? Because I keep getting lost in your eyes 🫠 , and I think we should navigate our way to a date?";
+      const finalContent = "सुनो! तुम मुझे अच्छी लगती हो,अगर तुम्हारे जीवन में कोई और लड़का नहीं है,और तुम किसी सुन्दर 😜 लड़के की तलाश में हो,तो क्या तुम मेरी महिला मित्र बनाना पसंद करोगी ?";
       const typingInterval = setInterval(() => {
         setTypedContent(finalContent.substring(0, index));
         index++;

@@ -11,8 +11,8 @@ const ConfirmationPage = () => {
 
       />
 
-      <div className=" text-center text-2xl text-green-500">
-        Thank you 💙 for saying yes ! I knew this 🫣
+      <div className=" text-center text-2xl text-green-700">
+        Thank you 💙, मैं थोड़ा ओल्ड स्कूल हूँ, यदि तुम्हारा उत्तर हाँ है तो, अपना उत्तर पेज (pen paper) में लिख कर भेज देना!
       </div>
     </div>
   );
